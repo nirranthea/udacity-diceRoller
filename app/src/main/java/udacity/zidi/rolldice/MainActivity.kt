@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener{
             rollDice()
         }
+        diceImage = findViewById(R.id.iv_dice)
+
     }
 
     private fun rollDice() {
